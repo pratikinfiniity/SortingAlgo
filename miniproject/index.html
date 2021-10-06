@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="data-container"></section>
+    <section id="ele"></section>
+    <div style="margin: auto; width: fit-content;">
+
+        <!-- "Generate New Array" button -->
+        <button class="btn1" onclick="generate()" id="Button1">
+     Generate New Array</button>
+
+        <!---"Bubble Sort" button-->
+        <button class="btn3" onclick="BubbleSort(),disable()" id="Button3">
+        Bubble Sort</button>
+
+        <!-- "Insertion Sort" button -->
+        <button class="btn2" onclick="InsertionSort(),disable()" id="Button2">
+     Insertion Sort</button>
+
+        <!--"Merge Sort" button-->
+
+
+        <button class="btn4" onclick="MergeSort(),disable()" id="Button4">
+            Merge Sort</button>
+
+        <button class="btn7" onclick="QuickSort(),disable()" id="Button7">
+                Quick Sort</button>
+
+        <button class="btn5" onclick="SelectionSort(),disable()" id="Button5">
+                Selection Sort</button>
+
+        <button class="btn6" onclick="HeapSort(),disable()" id="Button6">
+                    Heap Sort</button>
+
+
+        <button id="stop">STOP!</button>
+        <script src="generate.js"></script>
+        <script src="insertion.js"></script>
+        <script src="selection.js"></script>
+    </div>
+
+</body>
+
+</html>
